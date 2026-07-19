@@ -1,0 +1,12 @@
+[
+  { "title": "Update Tersedia", "body": "SeriusAI v1.0.0 telah diperbarui. Tidak ada yang berubah, tapi nomor versinya lebih besar.", "icon": "🔄" },
+  { "title": "Server Status", "body": "Semua server dalam kondisi 'baik-baik saja'. Kami tidak akan menjelaskan lebih lanjut.", "icon": "🟢" },
+  { "title": "Karyawan Baru", "body": "Selamat datang kepada 1 karyawan fiktif baru di tim Fake Analytics.", "icon": "👋" },
+  { "title": "Peringatan Produktivitas", "body": "Skor produktivitas Anda naik 3% dalam 5 menit terakhir tanpa alasan jelas.", "icon": "📊" },
+  { "title": "Pengingat", "body": "Jangan lupa minum air putih. Ini satu-satunya notifikasi yang benar-benar berguna.", "icon": "💧" },
+  { "title": "Laporan Cuaca Kantor", "body": "Suasana kantor hari ini: cerah berawan dengan kemungkinan rapat mendadak.", "icon": "🌤️" },
+  { "title": "Achievement Terdekat", "body": "Anda hampir membuka achievement baru. Coba klik sesuatu yang tidak biasa.", "icon": "🏆" },
+  { "title": "Info Marketplace", "body": "Produk 'Cloud Storage Kenangan Mantan' sedang tren minggu ini.", "icon": "🛍️" },
+  { "title": "Sistem Keamanan", "body": "Tidak ada ancaman terdeteksi. Faktanya, tidak ada sistem keamanan sungguhan di sini.", "icon": "🛡️" },
+  { "title": "Pesan dari CEO", "body": "Tetap semangat. Itu saja, tidak ada instruksi lain.", "icon": "📣" }
+]
