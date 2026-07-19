@@ -1,0 +1,29 @@
+@media (max-width: 1040px) {
+  .container { padding: 0 var(--space-4); }
+}
+
+@media (max-width: 860px) {
+  .section { padding: var(--space-8) 0; }
+  .hero { padding-top: calc(var(--nav-height) + var(--space-7)); padding-bottom: var(--space-7); }
+  .footer-top { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .hero-stats { gap: var(--space-5); }
+  .hero-cta { flex-direction: column; }
+  .hero-cta .btn { width: 100%; }
+  .gauge-svg { width: 180px; height: 116px; }
+  .section-title { font-size: clamp(1.6rem, 7vw, 2.1rem); }
+  .modal-box { padding: var(--space-5); }
+  .footer-top { grid-template-columns: 1fr; }
+  .chatbot-window { right: var(--space-3); left: var(--space-3); width: auto; }
+  .toast-stack { right: var(--space-3); left: var(--space-3); width: auto; }
+  .admin-header { flex-direction: column; align-items: flex-start; }
+  .form-row.two { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 420px) {
+  .brand-name { font-size: 1rem; }
+  .panic-btn { width: 80px; height: 80px; font-size: 0.72rem; }
+  .error-code { font-size: 4rem; }
+}
