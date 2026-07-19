@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>404 — Halaman Tidak Ditemukan | SeriusAI</title>
+<meta name="theme-color" content="#0B0E14" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="loading-bar" id="loadingBar"></div>
+
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="brand" data-egg="logo">
+      <img src="assets/logo.svg" alt="Logo SeriusAI" width="34" height="34" />
+      <div>
+        <div class="brand-name">SeriusAI</div>
+        <div class="brand-tagline-mini">solusi.serius() → hasil.absurd()</div>
+      </div>
+    </a>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema gelap/terang" type="button">☀️</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section text-center" style="padding-top:calc(var(--nav-height) + var(--space-9));">
+    <div class="container">
+      <div class="error-code">404</div>
+      <h1 class="section-title" style="margin-top:var(--space-5);">Halaman Ini Serius Tidak Ada</h1>
+      <p class="section-sub" style="max-width:480px;margin:0 auto;">Sepertinya Anda tersesat di area yang belum sempat kami buat dengan serius. Jangan khawatir, ini bukan salah Anda. Mungkin.</p>
+      <div class="notfound-actions">
+        <a href="index.html" class="btn btn-primary">Kembali ke Beranda</a>
+        <a href="index.html#contact" class="btn btn-ghost">Laporkan Halaman Ini</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0;justify-content:center;">
+      <span>© <span id="footerYear"></span> SeriusAI. Halaman ini resmi hilang secara serius.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/storage.js"></script>
+<script src="js/ui.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var y = document.getElementById('footerYear');
+    if (y) y.textContent = new Date().getFullYear();
+    var btn = document.getElementById('themeToggle');
+    var state = SeriusStore.get();
+    var theme = state.theme || 'dark';
+    if (theme === 'light') { document.documentElement.setAttribute('data-theme', 'light'); btn.textContent = '🌙'; }
+    btn.addEventListener('click', function () {
+      var current = SeriusStore.get().theme === 'light' ? 'dark' : 'light';
+      SeriusStore.set('theme', current);
+      if (current === 'light') { document.documentElement.setAttribute('data-theme', 'light'); btn.textContent = '🌙'; }
+      else { document.documentElement.removeAttribute('data-theme'); btn.textContent = '☀️'; }
+    });
+    var bar = document.getElementById('loadingBar');
+    if (bar) { bar.style.width = '100%'; setTimeout(function () { bar.classList.add('done'); }, 300); }
+  });
+</script>
+</body>
+</html>
