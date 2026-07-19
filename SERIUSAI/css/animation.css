@@ -1,0 +1,91 @@
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: var(--glow-primary); }
+  50% { box-shadow: 0 0 0 1px rgba(108, 99, 255, 0.6), 0 0 60px rgba(108, 99, 255, 0.4); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+@keyframes popIn {
+  0% { opacity: 0; transform: scale(0.85) translateY(10px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes gaugeSweep {
+  from { stroke-dashoffset: var(--gauge-start, 440); }
+  to { stroke-dashoffset: var(--gauge-end, 220); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.float { animation: floatY 6s ease-in-out infinite; }
+.spin { animation: spin 1s linear infinite; }
+.pulse-glow { animation: pulseGlow 2.4s ease-in-out infinite; }
+
+.shimmer-text {
+  background: linear-gradient(90deg, var(--color-text-dim) 25%, var(--color-text) 50%, var(--color-text-dim) 75%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 2.5s linear infinite;
+}
+
+.shake { animation: shake 0.5s var(--ease-out); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
