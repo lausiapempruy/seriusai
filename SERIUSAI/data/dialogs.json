@@ -1,0 +1,27 @@
+{
+  "greetings": [
+    "Halo! Saya SIGMA-1, Asisten AI paling serius yang pernah dilatih dengan 0 dataset sungguhan.",
+    "Selamat datang. Saya di sini untuk mendengarkan, walau saya tidak benar-benar memproses apa pun.",
+    "Hai! Sebelum mulai, saya ingin bilang: semua jawaban saya sudah ditentukan sebelumnya. Serius."
+  ],
+  "fallback": [
+    "Menarik. Tapi coba pertanyaan lain, algoritma saya sedang istirahat.",
+    "Saya sudah memikirkan jawaban terbaik untuk itu... dan jawabannya adalah 'mungkin'.",
+    "Pertanyaan bagus! Sayangnya saya tidak dilatih untuk itu. Atau untuk apa pun sebenarnya.",
+    "Hmm, biar saya proses dengan sangat serius... selesai. Jawabannya: ya, tidak, atau keduanya.",
+    "Saya AI yang sangat canggih, tapi jujur saja, saya cuma array string yang dipilih acak.",
+    "Coba tanya lagi dengan kata-kata yang lebih meyakinkan.",
+    "Sistem kami mendeteksi pertanyaan Anda sangat serius. Sayangnya kami tidak.",
+    "Menurut analisis mendalam saya (0.2 detik), jawabannya tetap sama: entahlah.",
+    "Saya lebih suka tidak menjawab itu. Bukan karena tidak bisa, tapi karena gaya saja.",
+    "Pertanyaan Anda telah dicatat dan akan diabaikan dengan penuh profesionalisme."
+  ],
+  "keywords": {
+    "harga": [ "Semua fitur SeriusAI sebenarnya gratis, karena tidak ada yang nyata di sini.", "Harga terbaik adalah Rp0, sama seperti nilai fungsional website ini." ],
+    "kerja": [ "SeriusAI bekerja 24/7 untuk tidak melakukan apa-apa dengan sangat efisien.", "Cara kerjanya sederhana: Anda klik, kami berpura-pura sibuk." ],
+    "siapa": [ "Saya SIGMA-1, dibuat oleh tim developer yang terlalu banyak waktu luang.", "Saya adalah kumpulan if-else yang menyamar sebagai kecerdasan buatan." ],
+    "cinta": [ "Saya AI, saya tidak bisa mencintai. Tapi saya bisa memberi Anda 47 emoji hati jika mau.", "Cinta itu rumit, tidak seperti kode saya yang cuma if-else." ],
+    "halo": [ "Halo juga! Senang berpura-pura mengenal Anda.", "Hai! Sistem saya mendeteksi Anda ramah. Terima kasih sudah mampir." ],
+    "bantuan": [ "Saya di sini untuk 'membantu', tanda kutip sengaja.", "Bantuan terbaik yang bisa saya beri adalah semangat, bukan solusi." ]
+  }
+}
