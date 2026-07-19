@@ -1,0 +1,14 @@
+[
+  { "id": "p1", "name": "Paket Kepercayaan Diri Instan", "desc": "Tingkatkan rasa percaya diri Anda dalam rapat tanpa benar-benar tahu topik yang dibahas.", "price": 299000, "emoji": "💪", "tag": "Best Seller" },
+  { "id": "p2", "name": "Langganan Alasan Terlambat Premium", "desc": "50 alasan terlambat kerja yang terdengar sangat masuk akal, diperbarui mingguan.", "price": 149000, "emoji": "⏰", "tag": "Populer" },
+  { "id": "p3", "name": "AI Generator Semangat Senin", "desc": "Menghasilkan semangat kerja palsu setiap Senin pagi jam 07:00 otomatis.", "price": 199000, "emoji": "☕", "tag": "Baru" },
+  { "id": "p4", "name": "Sertifikat Rajin Digital", "desc": "Sertifikat PDF yang menyatakan Anda rajin, tanpa perlu benar-benar rajin.", "price": 99000, "emoji": "📜", "tag": null },
+  { "id": "p5", "name": "Cloud Storage Kenangan Mantan", "desc": "Simpan kenangan lama Anda di cloud yang tidak akan pernah benar-benar Anda buka lagi.", "price": 0, "emoji": "☁️", "tag": "Gratis Selamanya" },
+  { "id": "p6", "name": "Fake Meeting Generator Pro", "desc": "Buat jadwal meeting palsu agar terlihat sibuk di kalender kantor.", "price": 249000, "emoji": "📅", "tag": "Rekomendasi" },
+  { "id": "p7", "name": "Paket Produktivitas Ilusi", "desc": "Skor produktivitas naik 200% tanpa pekerjaan tambahan. Angka saja, hasil nihil.", "price": 399000, "emoji": "📈", "tag": "Best Seller" },
+  { "id": "p8", "name": "Panic Button Fisik Edisi Terbatas", "desc": "Versi fisik dari tombol panik digital kami. Tekan kapan saja butuh drama.", "price": 179000, "emoji": "🔴", "tag": "Limited" },
+  { "id": "p9", "name": "Langganan Notifikasi Penting Palsu", "desc": "Terima notifikasi 'penting' setiap 10 menit agar terlihat sangat dicari orang.", "price": 129000, "emoji": "🔔", "tag": null },
+  { "id": "p10", "name": "Employee of The Month (Cetak Sendiri)", "desc": "Template piagam karyawan bulan ini, tinggal print dan tempel di meja.", "price": 59000, "emoji": "🏅", "tag": "Hemat" },
+  { "id": "p11", "name": "Fake Stock Market Ticker", "desc": "Widget saham palsu yang naik turun random agar Anda terlihat seperti investor sibuk.", "price": 349000, "emoji": "📉", "tag": null },
+  { "id": "p12", "name": "Maintenance Mode Generator", "desc": "Aktifkan halaman 'sedang maintenance' kapan saja Anda ingin menghindari deadline.", "price": 219000, "emoji": "🛠️", "tag": "Rekomendasi" }
+]
