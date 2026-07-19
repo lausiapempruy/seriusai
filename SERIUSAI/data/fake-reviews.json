@@ -1,0 +1,10 @@
+[
+  { "name": "Reza A.", "role": "CEO, Perusahaan Rintisan Entah Apa", "rating": 5, "text": "SeriusAI mengubah cara tim kami terlihat sibuk. ROI-nya tidak jelas, tapi vibe-nya luar biasa." },
+  { "name": "Lina K.", "role": "Manajer Pemasaran", "rating": 5, "text": "Sejak pakai SeriusAI, laporan mingguan saya jadi 40% lebih meyakinkan meski isinya sama saja." },
+  { "name": "Doni P.", "role": "Freelancer Profesional", "rating": 4, "text": "Fitur Panic Button-nya sangat membantu saat deadline. Masalah tetap ada, tapi saya merasa lebih baik." },
+  { "name": "Ayu S.", "role": "Founder, Startup Belum Profit", "rating": 5, "text": "Investor kami terkesan dengan dashboard analitik palsunya. Serius, mereka tidak sadar itu palsu." },
+  { "name": "Bagas T.", "role": "Karyawan Swasta", "rating": 5, "text": "Sertifikat kerajinan digitalnya sudah saya pajang di LinkedIn. Engagement naik drastis." },
+  { "name": "Citra M.", "role": "Product Manager", "rating": 4, "text": "Chatbot-nya tidak menjawab apa pun dengan berguna, tapi entah kenapa saya betah ngobrol." },
+  { "name": "Fajri N.", "role": "Konsultan Independen", "rating": 5, "text": "Fake Meeting Generator menyelamatkan kalender saya dari terlihat kosong. 10/10." },
+  { "name": "Wulan D.", "role": "HR Business Partner", "rating": 5, "text": "Karyawan jadi lebih semangat berkat Achievement System-nya, walau tidak ada hadiah nyata." }
+]
